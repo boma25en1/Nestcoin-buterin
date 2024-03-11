@@ -9,7 +9,8 @@ contract Vendor is Ownable {
  //Variables
     address public _owner;
 
-    YourToken public yourToken;
+
+    YourToken public yourToken; //your public token
 
     address[] public _loyalCustomers; //an array of loyal customers
 
